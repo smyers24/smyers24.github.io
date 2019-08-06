@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Revision Histor
+title: Revision History
 permalink: /revisions/
 ---
 
