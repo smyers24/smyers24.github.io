@@ -4,7 +4,11 @@ title: Revision History
 permalink: /revisions/
 ---
 
-Revision History page. To be updated as changes are made and things are learned.
+Revision History page. To be updated as changes are made and things are learned. Also including notes and long-term goals
+
+GOALS
+-------
+Make tutorial on how to properly add a new page
 
 History log
 -------

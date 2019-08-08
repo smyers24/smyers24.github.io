@@ -12,7 +12,9 @@ My name is Scott Myers and I am an aspiring Software Engineer. My current title 
 I have taken a few classes that directly teach coding, but most of what I have learned has been self-taught. 
 Over the course of my college career I've learned a new skill or language each year due to changing interests and developing requirements at work. 
 I think some of my greatest attributes are my ability to quickly learn new things and my tenacity in working through challenges. 
-This has often enabled me to hop from project-to-project as needed and quickly make meaningful contributions to my teams
+This has often enabled me to hop from project-to-project as needed and quickly make meaningful contributions to my teams.
+
+Want to talk? Feel free to reach out to me! I'm always interested in hearing new ideas, starting new collaborations, and getting feedback.
 
 My programming experience overview can be seen below:
 
@@ -22,7 +24,7 @@ My programming experience overview can be seen below:
   - I learned Verilog initially in school and then further developed my skills at work. Writing test benches, debugging code, and writing code for state machines. This has been the bulk of my recent coding knowledge at work.
 
 #### C#: Control program utilizing serial communication and Bluetooth protocol. 
-  - I was tasked with writing a C# GUI that used the aforementioned protocols. I had no prior C# experience but managed to develop a program in          3 days which was used for the rest of the contract. It controlled motor speeds, did signal processing, and managed all of the communications for the program. I have since written other serial communication GUI's using a similar framework.
+  - I was tasked with writing a C# GUI that used the aforementioned protocols. I had no prior C# experience but managed to develop a program in          3 days which was used for the rest of the contract. It controlled motor speeds, did signal processing, and managed all of the communications for the program. A really interesting part of working on this program was learning how to use a Background Worker. I have since written other serial communication GUI's using a similar framework.
   
 #### LabVIEW: Many automation based projects
   - I have a large amount of experience with LabVIEW. Some may not consider grpahical programming to be "real" programming, but it absolutely teaches algorithms and thinking with code.
