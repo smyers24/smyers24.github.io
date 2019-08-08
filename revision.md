@@ -15,8 +15,8 @@ History log
 
 8/6/19
   GOALS:
-    - Add a new page for resume
-    - Add an 'about me' page
+    - Add a new page for resume [DONE]
+    - Add an 'about me' page [DONE]
   
   STATUS:
   - Still seeing redirect issue. Was hoping it's resolved - not sure if this is user error or DNS proprogation time, as previously mentioned
@@ -24,7 +24,27 @@ History log
   - Ruby, Gems, and Jekyll have successfully been installed
   - Sample Jekyll blog up and running (following https://jekyllrb.com/docs/)
   - Main repository now reflects sample blog
-  - 
+  -
+
+  LESSONS LEARNED:
+   - Should have forked jekyll instead of downloading + copying. 
+   - Use local editing more + commit less. This was really just a symptom of the setup. I already understand this from SVN
+   
+   8/7/19
+	GOALS:
+		-Embed resume PDF into website
+		-Type up basic information into 'about me' 
+		-Learn about data structures (Will be ongoing effort). Maybe make study plan?
+		-Do more local testing/running to reduce commits  
+		-For 8/8/19 - make blog post w/ proper formatting on hysteresis
+		
+	STATUS:
+		-Embedded PDF resume done! thanks to https://medium.com/@kekayan/display-your-resume-cv-pdf-in-website-using-github-73a088ac961d
+		-About Me page written - with coding experience right now. More to come later and refining the coding experience
+		-Jekyll set up for local testing
+			-Following https://github.com/barryclark/jekyll-now and using GitHub for Desktop
+		-Blog post made for Hysteresis
+	
   
   
   
