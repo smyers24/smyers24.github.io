@@ -8,7 +8,11 @@ permalink: /about/
 Hello!
 
 
-My name is Scott Myers and I am an aspiring Software Engineer. My current title is Electronics Engineer I, but my primary job function is coding. I have taken a few classes that directly teach coding, but most of what I have learned has been self-taught. Over the course of my college career I've learned a new skill or language each year due to changing interests and developing requirements at work. I think some of my greatest attributes are my ability to quickly learn new things and my tenacity in working through challenges. This has often enabled me to hop from project-to-project as needed and make quickly make meaningful contributions to my teams
+My name is Scott Myers and I am an aspiring Software Engineer. My current title is Electronics Engineer I, but my primary job function is coding. 
+I have taken a few classes that directly teach coding, but most of what I have learned has been self-taught. 
+Over the course of my college career I've learned a new skill or language each year due to changing interests and developing requirements at work. 
+I think some of my greatest attributes are my ability to quickly learn new things and my tenacity in working through challenges. 
+This has often enabled me to hop from project-to-project as needed and quickly make meaningful contributions to my teams
 
 My programming experience overview can be seen below:
 
@@ -30,14 +34,14 @@ My programming experience overview can be seen below:
   - I've always found the basic scripting language of MATLAB/Octave to be so enjoyable. It's basic and to-the-point. The syntax makes sense and it's incredibly powerful. We learned MATLAB in a few classes in school, mostly being processing algorithms. It frequently involved tediously solving a math problem by hand and then quickly doing it in MATLAB. 
   - I learned Octave due to necessity at work. It turns out that MATLAB is *very* expensive, so Octave is a great alternative. I wrote a program that processes the output data of some hardware that was experiencing glitches. There was a ton of data to sift through and it was difficult to locate errors/glitches by just looking for them. So I wrote a script that automatically parsed through the data, found glitches, and put a red 'o' around them to denote that an error was there. Additionally, I added debugging info and plotted it all. This made it easy to locate consistent faults in the hardware and eventually work on fixes. 
  
- #### C++: Self-taught basics
+#### C++: Self-taught basics
   - I have a basic level of C++ knowledge. Most of this was acquired for personal satisfaction. I learned most of the C++ that I know from HackerRank and books. I have written a few basic programs and algorithms.
   
 #### Python: Self-taught using a Raspberry Pi
   - I wanted to learn Python because I've heard so much about its overall utility. I also have a Raspberry Pi that I occasionally use for a fun personal project. My favorites have been hosting a Spotify server and powering some LEDs using buttons. Admittedly, much of this was based off work that I saw online. However, I have a new personal project that I've been brainstorming up using Python. Hopefully I'll be able to start that soon and upload my code to my GitHub page.
   
-  #### BGScript: A dreadful Blueooth language
+#### BGScript: A dreadful Blueooth language
    - A proprietary Bluetooth language. It was tough to use it and follow some of the documentation, but it was interesting to learn and satisfying to conquer. 
    
-   #### C: Basic microcontrollers in school
+#### C: Basic microcontrollers in school
    - My C experience is limited, primarily being focused around microcontrollers. These were mostly state machines in school.
