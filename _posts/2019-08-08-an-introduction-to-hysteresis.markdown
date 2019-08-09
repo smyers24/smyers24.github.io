@@ -2,7 +2,7 @@
 layout: post
 title:  "An Introduction to Hysteresis"
 date:   2019-08-08 17:00:00 -0500
-categories: technical topics
+categories: technical
 ---
 
 
@@ -27,7 +27,7 @@ There are many situations in electronics which can make use of this property. On
 ![Schmitt trigger with noise](https://github.com/smyers24/smyers24.github.io/raw/master/_site/assets/blog_images/schmitt_withnoise.png)
 
 I've noted 3 points of interest in the above picture. 
-###### Notation 1: 
+#### Notation 1: 
 This is where noise shows up in the signal and cause the output waveform to go low. This is *almost* always an undesired behavior. There is only a single reference threshold here, and the logic is, in some crude, generic coding it would look something like
 ```
 if (input > singleThreshold){
@@ -39,10 +39,10 @@ else{
 ```
 So when that little noise blip goes below threshold, the output goes back to 0.
 
-###### Notation 2: 
+#### Notation 2: 
 There are now two thresholds: upper and lower. When the input is greater than the upper threshold, the signal goes high. This time, however, when it drops below upper threshold it doesn't go low as it did in the previous instance. This is because of the lower threshold.
 
-###### Notation 3: 
+#### Notation 3: 
 As seen in 'Notation 2', the lower threshold acts as another 'gate' for stopping the signal from changing. Here's how it works: With hysteresis, you have an upper and lower limit, or threshold. Your output signal only goes high once your input is greater than the upper limit. It remains high until your input is lower than the low threshold. It's that simple!  
 Some rough pseudocode can be seen below. This assume that you're constantly streaming data and evaluating measuring the input:
 ```

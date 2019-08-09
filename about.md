@@ -14,6 +14,8 @@ Over the course of my college career I've learned a new skill or language each y
 I think some of my greatest attributes are my ability to quickly learn new things and my tenacity in working through challenges. 
 This has often enabled me to hop from project-to-project as needed and quickly make meaningful contributions to my teams.
 
+When I'm not coding, learning, or messing with circuits, you can usually find me in the kitchen testing new recipes and tasting new ingredients. Outside of engineering, I'm a very passionate home chef and I absolutely love cooking. 
+
 Want to talk? Feel free to reach out to me! I'm always interested in hearing new ideas, starting new collaborations, and getting feedback.
 
 My programming experience overview can be seen below:
