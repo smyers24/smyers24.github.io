@@ -49,6 +49,11 @@ History log
 			-Following https://github.com/barryclark/jekyll-now and using GitHub for Desktop
 		-Blog post made for Hysteresis
 	
-  
+	8/24/19
+		-Minor changes have been made that were not previously logged
+			-Added Writing Samples Page
+		-Finishing optical theremin blog post
+		-Added several writing samples
+		-Added some mathematical algorithm repo links to 'Projects' page
   
   
