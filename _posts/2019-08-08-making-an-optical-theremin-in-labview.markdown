@@ -18,11 +18,11 @@ The picture below is the first stage of the program. It handles the input from t
 The "DAQ Assistant" block is an NI(National Instruments) pre-made VI(virtual instrument) that manages hardware inputs and outputs. That signal is broken up because of the two indepdent photodiodes. Each signal is indepdently averaged to help accomodate for noise. The two indepdent signals are then each processed and scaled depending on the user's input. This input, for both frequency and amplitude, was meant to normalize the signals to a certain range. So if the user wanted the amplitude to be at 50% power between a relative range of 0-4, then they could do it here. See the picture below. The same applies for frequency.
 ![Optical Theremin in LabVIEW - Scaling Stage](https://github.com/smyers24/smyers24.github.io/raw/master/_site/assets/blog_images/opticaltheremin_ampscale.png)
 
-##Auto Tune Section
+## Auto Tune Section
 The next interesting block that you'll notice in the input stage is "Auto-Tune". This one I'm most proud of. If aren't sure how auto-tune works, [click here](#Auto-Tune-Basics) to read a bit more below.
 
 The front panel for my auto tuning portion can be seen in the picture below.
-![Auto Tune front panel](https://github.com/smyers24/smyers24.github.io/raw/master/_site/assets/blog_images/opticaltheremin_autotune_frontpanel)<br>
+![Auto Tune front panel](https://github.com/smyers24/smyers24.github.io/raw/master/_site/assets/blog_images/opticaltheremin_autotune_frontpanel.png)<br>
 The operation is simple: Select your key, input your frequency, and enable/disable the auto tune. If you have it disabled, it passes the input through and outputs it, unmodified. If you were to choose to tune to the key of 'E', the block would look like the following picture. 
 [Auto Tune to E Key](https://github.com/smyers24/smyers24.github.io/raw/master/_site/assets/blog_images/opticaltheremin_ekey.png) <br>
 A chromatic auto tune might look like the following.
