@@ -56,4 +56,8 @@ History log
 		-Added several writing samples
 		-Added some mathematical algorithm repo links to 'Projects' page
   
-  
+	8/25/19
+		-Added two basic python programs
+		
+	8/26/19
+		-Begin development of word cloud program in python

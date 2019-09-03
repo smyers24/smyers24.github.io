@@ -10,13 +10,9 @@ permalink: /projects/
 
 [Analysis of a Spring-Mass System at Equilibrium](https://github.com/smyers24/Spring-Mass-System-Analysis-using-LU-Decomp-and-Cramers-Rule.git) <br>
 
-TODO
+[Word cloud from random word generator - Python]()
 
-Install chocolatey
-ruby
-jekyll
-gem
-atom?
+[Text to NATO phonetic alphabet - Python](https://github.com/smyers24/Text-to-NATO-Phonetic-Alphabet.git)
 
-My long-term goal at the moment is to use React to develop my website. I will soon be following https://codeburst.io/deploy-react-to-github-pages-to-create-an-amazing-website-42d8b09cd4d as a starting location  
+[Change machine - Python](https://github.com/smyers24/Change-Machine.git)
   

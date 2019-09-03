@@ -23,7 +23,7 @@ First off, what is hysteresis? According to [Wikipedia](https://en.wikipedia.org
 
 ## Use Case
 
-There are many situations in electronics which can make use of this property. One of the biggest reasons is noise immunity. This is almost always something that's strived for in the world of designing high-density power electronics. An example of this is a [Schmitt Trigger](https://en.wikipedia.org/wiki/Schmitt_trigger). A Schmitt Trigger is commonly used to convert an analog signal (think of a sin wave) to a digital signal (square wave). It's so effective because it uses hysteresis to block out noise and ensure that data is accurately sampled. Let's look at an example image and dive in [1].
+There are many situations in electronics which can make use of this property. One of the biggest reasons is noise immunity. This is almost always something that's strived for in the world of designing high-density power electronics. An example of this is a [Schmitt Trigger](https://en.wikipedia.org/wiki/Schmitt_trigger). A Schmitt Trigger is commonly used to convert an analog signal (think of a sin wave) to a digital signal (square wave). It's so effective because it uses hysteresis to block out noise and ensure that data is accurately sampled. Let's look at an example image and dive in (source: HowTo Mechatronics).
 ![Schmitt trigger with noise](https://github.com/smyers24/smyers24.github.io/raw/master/_site/assets/blog_images/schmitt_withnoise.png)
 
 I've noted 3 points of interest in the above picture. 
@@ -64,6 +64,8 @@ elseif(input < threshold){
 }
 ```
 This is simplified, but (I think) it gets the point across. A Schmitt Trigger includes positive feedback, which is why the threshold adjusts as it is passed. I would be happy to take suggestions as to how to improve the clarity/code.
+Another example of a schmitt trigger can be seen below. This image is sourced from the previously linked Wikipedia page
+![Clean signal Schmitt Trigger](https://github.com/smyers24/smyers24.github.io/raw/master/_site/assets/blog_images/schmitt_trigger.png)
 
 ## Concluding Notes
 That's a brief overlook at hysteresis and how it can be used in electronics. I hope that my usage case did a good job at showing how the hysteresis works and a rudimentary way in which one might be able to implement it with code. 
