@@ -8,47 +8,51 @@ permalink: /about/
 Hello!
 
 
-My name is Scott Myers and I am an aspiring Software Engineer. My current title is Electronics Engineer I, but my primary job function is coding. 
-I have taken a few classes that directly teach coding, but most of what I have learned has been self-taught. 
-Over the course of my college career I've learned a new skill or language each year due to changing interests and developing requirements at work. 
-I think some of my greatest attributes are my ability to quickly learn new things and my tenacity in working through challenges. 
-This has often enabled me to hop from project-to-project as needed and quickly make meaningful contributions to my teams.
+My name is Scott Myers and I am a Software Engineer.
+I have extensive experience with programming in a variety of languages. At the moment I am most comfortable with C#, but I'm always working on expanding my skillset.
+My degree is in Electrical Engineering, but the majority of my professional career has been focused on coding. Between my professional work and my self-taught experiences, I can be an asset to any team.
 
-When I'm not coding, learning, or messing with circuits, you can usually find me in the kitchen testing new recipes and tasting new ingredients. Outside of engineering, I'm a very passionate home chef and I absolutely love cooking. 
+When I'm not coding, learning, or messing with circuits, you can usually find me in the kitchen testing new recipes and tasting new ingredients. Outside of engineering, I'm a very passionate home chef and I absolutely love cooking. I've also played video games for my entire life, which has spawned some really interesting projects. Check them out on my [GitHub Page](https://github.com/smyers24?tab=repositories) .
 
 Want to talk? Feel free to reach out to me! I'm always interested in hearing new ideas, starting new collaborations, and getting feedback.
+scott@scottmyers.dev
 
 My programming experience overview can be seen below:
 
 ## Programming Skills
 
+#### C#: controls, communications, and data processing
+- Lead developer for code development and refactoring.
+	- Modernize code library and ensure all code is modular
+	- Process feedback data from systems and manipulate using algorithms, file IO, and more. 
+	- Help oversee direction of code progression
+	- Delegate tasks to interns to ensure deadlines are met
+- Develop serial communication software to talk to hardware devices
+
+#### Python: Basic projects
+  - Several Raspberry Pi projects such as: Spotify server, Minecraft server, basic LED control, and more.
+  - 'Traditional' projects include [a basic change machine](https://github.com/smyers24/Change-Machine.git) or [a text to NATO phonetic alphabet translator](https://github.com/smyers24/Text-to-NATO-Phonetic-Alphabet.git)
+  - Working on stats analyzing program and web crawler that generates word clouds.
+  
 #### Verilog: FPGAs - both simulations and on hardware
-  - I learned Verilog initially in school and then further developed my skills at work. Writing test benches, debugging code, and writing code for state machines. This has been the bulk of my recent coding knowledge at work.
-  <br>
-  - More recently I've been working with interfacing between ethernet and dma protocols to manage data in a complex FPGA system.
+- Interfacing between ethernet and dma protocols to manage data in a complex FPGA system.
+- Improve and optimize low-latency systems  
   
 #### LabVIEW: Many automation based projects
-  - I have a large amount of experience with LabVIEW. Some may not consider grpahical programming to be "real" programming, but it absolutely teaches algorithms and thinking with code.
-  - My most ambitious LabVIEW program was an automation program that I made for my internship with Solid State Ceramics. It utilized the Digilent Waveforms SDK as well as SCPI commands to completely automate a testing procedure. This program took about 10 months to complete and was entirely done through my own resarch and hard work. It sent our information, captured information, processes, and writes to a file. It has immensely increase manufacturing capabilities and is still in use today.
-  - A program that I'm most proud of is a temperature control module. Using a hysteretic control loop, it regulated the temperature in an environmental chamber to make sure that a device can reach and hold the desired temperature. It has closed loop feedback using the chamber's control module as well as a thermocouple for accurate measurements.
-  - My first few projects were in school where I initially got my NI CLAD certification. This has since expired, but I'm confident that I could get re-certified if I took the test again. I made an optical theremin with auto-tune, a few state machines, and some basic processing programs.
+- Complex automation program utilizing Digilent Waveforms SDK, SCPI commands, data processing, and file IO. 
+	- Purpose is to reduce labor hours spent on repetitive tasks. Runs test, processes data, and saves for later examination.
+	- Cut down test time by over 400%. Still in regular use.
+	- Entirely self-lead.
   
-#### C#: Control program utilizing serial communication and Bluetooth protocol. 
-  - I was tasked with writing a C# GUI that used the aforementioned protocols. I had no prior C# experience but managed to develop a program in          3 days which was used for the rest of the contract. It controlled motor speeds, did signal processing, and managed all of the communications for the program. A really interesting part of working on this program was learning how to use a Background Worker. I have since written other serial communication GUI's using a similar framework.  
-  
-#### MATLAB/Octave : School and self-taught processing algorithms
-  - I've always found the basic scripting language of MATLAB/Octave to be so enjoyable. It's basic and to-the-point. The syntax makes sense and it's incredibly powerful. We learned MATLAB in a few classes in school, mostly being processing algorithms. It frequently involved tediously solving a math problem by hand and then quickly doing it in MATLAB. 
-  - I learned Octave due to necessity at work. It turns out that MATLAB is *very* expensive, so Octave is a great alternative. I wrote a program that processes the output data of some hardware that was experiencing glitches. There was a ton of data to sift through and it was difficult to locate errors/glitches by just looking for them. So I wrote a script that automatically parsed through the data, found glitches, and put a red 'o' around them to denote that an error was there. Additionally, I added debugging info and plotted it all. This made it easy to locate consistent faults in the hardware and eventually work on fixes. 
+#### MATLAB/Octave : Data-processing algorithms
+- Find and isolate problematic patterns in a system. Take massive data sets and evaluate for abnormalities.
+	- Successfully located issue and lead to the resolution of a critical and longstanding bug. 
+- Complex algorithm solving
  
 #### C++: Self-taught basics
-  - I have a basic level of C++ knowledge. Most of this was acquired for personal satisfaction. I learned most of the C++ that I know from HackerRank and books. I have written a few basic programs and algorithms.
+- Basic knowledge of syntax and fundamentals. Implemented several math algorithms.
   
-#### Python: Self-taught using a Raspberry Pi
-  - I wanted to learn Python because I've heard so much about its overall utility. My initial experience is editing projects and implementing them on my Raspberry Pi. Since then I've been making projects to further my understanding of the language. <br>
-  - Example projects include [a basic change machine](https://github.com/smyers24/Change-Machine.git) or [a text to NATO phonetic alphabet translator](https://github.com/smyers24/Text-to-NATO-Phonetic-Alphabet.git)
-  
-#### BGScript: A dreadful Blueooth language
-   - A proprietary Bluetooth language. It was tough to use it and follow some of the documentation, but it was interesting to learn and satisfying to conquer. 
+#### BGScript: Blueooth 
+- Establish psuedo-serial communication over Blueooth protocols between microcontroller and computer. 
    
-#### C: Basic microcontrollers in school
-   - My C experience is limited, primarily being focused around microcontrollers. These were mostly state machines in school.
+- Basic knowledge of syntax and fundamentals. Primary applications have been microcontrollers.

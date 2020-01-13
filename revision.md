@@ -13,6 +13,17 @@ Make tutorial on how to properly add a new page
 History log
 -------
 
+1/11/20
+- First update in a long time
+- Fixed an link in Auto Tune post
+- Updated 'About' page
+- Added DnD Hub
+- Formatted projects page
+- Updated resume
+
+
+------- OLD
+
 8/5/19: Repo initially created. Awaiting DNS propogation before really diving in. Planning on getting more familiar with GitHub in the upcoming days. Likely that little actual development work will happen until HTTPS is figured out 
   - I'm planning on using Jekyll as the basis for my design. As such, I'll be looking through https://github.com/jekyll/jekyll and making inquiries based on what I find there
   - I hope that within a week or so I can have one or two interesting pages written 
