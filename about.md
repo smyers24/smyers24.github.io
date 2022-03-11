@@ -8,11 +8,15 @@ permalink: /about/
 Hello!
 
 
-My name is Scott Myers and I am a Software Engineer.
-I have extensive experience with programming in a variety of languages. At the moment I am most comfortable with C#, but I'm always working on expanding my skillset.
-My degree is in Electrical Engineering, but the majority of my professional career has been focused on coding. Between my professional work and my self-taught experiences, I can be an asset to any team.
+My name is Scott Myers and I am a full stack engineer with 3+ years of full‑time software development experience. Currently, I work on a scrum team at Exiger
+where my teammates and I collaboratively build a financial compliance OMS platform using industry standard tools like Jenkins,
+Git, ASP.NET, and more. I’m most comfortable with C# but am also familiar with Javascript and Python. Previously, I built desktop
+applications used to automate testing and save engineers from doing tedious, repeated work. In doing so, I became passionate
+about writing code that makes other people’s lives easier.
 
-When I'm not coding, learning, or messing with circuits, you can usually find me in the kitchen testing new recipes and tasting new ingredients. Outside of engineering, I'm a very passionate home chef and I absolutely love cooking. I've also played video games for my entire life, which has spawned some really interesting projects. Check them out on my [GitHub Page](https://github.com/smyers24?tab=repositories) .
+Outside of coding, my interests lie in video games, cooking, and hanging out with my dog. 
+
+Check them out on my [GitHub Page](https://github.com/smyers24?tab=repositories) .
 
 Want to talk? Feel free to reach out to me! I'm always interested in hearing new ideas, starting new collaborations, and getting feedback.
 scott@scottmyers.dev
@@ -21,13 +25,17 @@ My programming experience overview can be seen below:
 
 ## Programming Skills
 
-#### C#: controls, communications, and data processing
-- Lead developer for code development and refactoring.
-	- Modernize code library and ensure all code is modular
-	- Process feedback data from systems and manipulate using algorithms, file IO, and more. 
-	- Help oversee direction of code progression
-	- Delegate tasks to interns to ensure deadlines are met
-- Develop serial communication software to talk to hardware devices
+#### C#: Backend, desktop applications, and more
+- Backend duties such as APIs, data processing, and more.
+- Desktop development. Typically helpful tools that automate tedious tasks or save time by aggregating commonly needed tools.
+- Writing tests and ensuring proper code coverage.
+- Writing tools to monitor system health
+
+#### Javascript: Frontend work
+- Write code to fulfill scripting needs for frontend work. 
+
+#### CSHTML: Frontwork
+- Complement Javscript code with views using Razor
 
 #### Python: Basic projects
   - Several Raspberry Pi projects such as: Spotify server, Minecraft server, basic LED control, and more.
@@ -54,5 +62,4 @@ My programming experience overview can be seen below:
   
 #### BGScript: Blueooth 
 - Establish psuedo-serial communication over Blueooth protocols between microcontroller and computer. 
-   
 - Basic knowledge of syntax and fundamentals. Primary applications have been microcontrollers.
