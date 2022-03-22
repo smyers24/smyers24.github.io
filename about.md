@@ -16,10 +16,10 @@ about writing code that makes other people’s lives easier.
 
 Outside of coding, my interests lie in video games, cooking, and hanging out with my dog. 
 
-Check them out on my [GitHub Page](https://github.com/smyers24?tab=repositories) .
-
 Want to talk? Feel free to reach out to me! I'm always interested in hearing new ideas, starting new collaborations, and getting feedback.
 scott@scottmyers.dev
+
+Check out my Github account at [GitHub](https://github.com/smyers24) .
 
 My programming experience overview can be seen below:
 
