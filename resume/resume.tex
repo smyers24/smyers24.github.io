@@ -1,0 +1,141 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+\usepackage{lipsum}
+\usepackage[none]{hyphenat}
+\usepackage[1]{pagesel}
+\linespread{1}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+\usepackage[T1]{fontenc}
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+%% Color for highlight
+\definecolor{awesome}{HTML}{000000}%Yellow
+%% Colors for text
+\definecolor{darktext}{HTML}{000000} %green
+\definecolor{text}{HTML}{000000} % pink
+\definecolor{graytext}{HTML}{000000} % red
+\definecolor{lighttext}{HTML}{000000} %blue
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Scott} \headerlastnamestyle{Myers} \\
+	\vspace{1mm}
+	{\faEnvelope\ scott@scottmyers.dev} | {\faLink\ https://github.com/smyers24} | {\faLink\ https://scottmyers.dev}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{Bachelor of Science in Electrical Engineering}
+	{The Pennsylvania State University}
+	{University Park, PA}
+	{May 2018}
+	{}
+\end{cventries}
+
+\vspace{-6mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Experience}
+\begin{cventries}
+\linespread{1.40}
+	\cventry
+	{Software Engineer (Full Stack)}
+	{Exiger}
+	{}
+	{August 2020 - Present}
+	{\begin{cvitems}
+		\item {Design, build, and test new user facing features for financial compliance OMS platform. Duties range across the stack by leveraging C\#, ASP.NET, SQL Server, Javascript, Jenkins, and more. Regularly collaborate with stakeholders to ensure optimal user experience.}
+		\item {Monitor system health through logging and monitoring tools. Quickly resolve issues and optimize code/queries to minimize resource requirements. }
+		\item {Identify and create automation for repetitive work, reducing engineering time from 2+ hours to several seconds in some instances.}
+		\item {Ensure code is stable and well-tested during development. Created unit test framework to reduce test creation/run time by 50\%.}
+		\item {Design and create REST API routes for customer integration. Update documentation accordingly.}
+		\item {Establish and support RabbitMQ topology to pass messages between services.}
+		\item {Write and optimize SQL queries to fulfill ad-hoc customer requests and business requirements.}
+		\item {Peer review code, lead and participate in design discussions, and research/implement optimal architecture per team's vision.}
+		\end{cvitems}}
+	\cventry
+	{Software Engineer}
+	{QorTek Inc.}
+	{}
+	{June 2018 – August 2020}
+	{\begin{cvitems}
+		\item {Lead the development of a closed-loop acoustics processing system in C\# utilizing asynchronous programming and custom data visualization methods with the .NET framework. The system can also automate tests and process real-time data for the user.}
+		\item {Designed and implemented a low latency, high throughput streaming protocol for use in time-sensitive applications. Utilized the protocol with a custom multithreaded streaming application.}
+		\item {Create and maintain C\# class library of math algorithms, backend data visualization, framework enhancements, and more. Lead efforts and discussions about standardization and scalability of codebase.}
+		\item {Designed, tested, and verified scripts that measure system health for irregularities to identify critical bugs and aid in their resolution.}
+		\end{cvitems}}
+	\cventry
+	{Test and Automation Engineering Intern}
+	{Solid State Ceramics}
+	{}
+	{August 2017 – May 2018}
+	{\begin{cvitems}
+		\item {Independently created automated ceramic piezoelectric transformer characterization program using LabVIEW. The ability to automate this process has saved the manufacturer hundreds of hours of employee labor.}
+		\end{cvitems}}
+	\cventry
+	{Engineering Intern}
+	{QorTek Inc.}
+	{}
+	{May 2017 – August 2017}
+	{\begin{cvitems}
+		\item {Designed and tested attitude control system for small satellites using C\#. Controlled hardware via micro-controller, which had data live-streamed to it via Bluetooth API. This program led to the successful validation of critical project goals.}
+		\end{cvitems}}
+\end{cventries}
+
+\vspace{-5mm}
+\cvsection{Skills}
+
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Languages / Tech:  & {\skill{ C\#, JavaScript, HTML, ASP.NET, SQL}} \\
+		Software:  & {\skill{ Visual Studio, SSMS, IIS, RabbitMQ, Jenkins, Datadog}} \\
+		Computer Science:  & {\skill{ Rest API, OOP Principles, Data Structures, Algorithms}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\vspace{-10mm}
+\cvsection{Projects}
+\begin{cventries}
+	\cventry
+	{Desktop application to manage players stats, dice rolls, and inventory. Code managed and documented on GitHub. New features are added by talking with players on a weekly basis during campaign sessions. Persistent game data structures allows players to easily save their data.}
+	{Dungeons and Dragons Hub}
+	{C\#, Windows Forms}
+	{https://github.com/smyers24/DnD-Hub-V2}
+	{}
+
+\end{cventries}
+\end{document}

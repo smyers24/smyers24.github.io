@@ -1,0 +1,168 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+\usepackage{lipsum}
+\usepackage[none]{hyphenat}
+\linespread{1}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+\usepackage[T1]{fontenc}
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+%\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+\definecolor{awesome}{HTML}{000000}%Yellow
+%% Colors for text
+%\definecolor{darktext}{HTML}{6495ED} %green
+%\definecolor{darktext}{HTML}{1133FF} %green
+\definecolor{darktext}{HTML}{000000} %green
+\definecolor{text}{HTML}{000000} % pink
+\definecolor{graytext}{HTML}{000000} % red
+\definecolor{lighttext}{HTML}{000000} %blue
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Scott} \headerlastnamestyle{Myers} \\
+	\vspace{1mm}
+	{\faEnvelope\ myers.t.scott@gmail.com} | {\faMobile\ 215-360-9710} | {\faLink\ https://github.com/smyers24} | {\faLink\ https://scottmyers.dev}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{Bachelor of Science in Electrical Engineering}
+	{The Pennsylvania State University}
+	{University Park, PA}
+	{May 2018}
+	{}
+\end{cventries}
+
+\vspace{-6mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Experience}
+\begin{cventries}
+\linespread{1.40}
+	\cventry
+	{Software Engineer}
+	{QorTek Inc.}
+	{}
+	{June 2018 – Present}
+	{\begin{cvitems}
+		\item {Developed a closed-loop acoustics processing system in C\# utilizing asynchronous frameworks and custom charting methods. Implemented a low latency, high throughput audio streaming protocol between computers for use in this time-sensitive application. The system can also automate hardware tests and process real-time data for the user.}
+		\item {Created C\# library of math algorithms, backend data visualization, and framework enhancements. The library has been used to standardize and update the codebase. Help lead discussions with team to ensure applicability and re-usability of code in the future.}
+		\item {Designed, tested, and verified MATLAB scripts that compared measured acoustic feedback to expected values based on many test conditions. These scripts led to the resolution of a bug which was halting all further system development.}
+		\item {Utilize APIs in various languages to create automated testing programs which significantly reduce engineering development time.}
+		\item {Work with stakeholders to ensure critical milestones are being met and communicate setbacks as they arise.}
+		\item {Support the technical development of junior employees by defining tasks that are in line with their interests.}
+		\end{cvitems}}
+	\cventry
+	{Test and Automation Engineering Intern}
+	{Solid State Ceramics}
+	{}
+	{August 2017 – May 2018}
+	{\begin{cvitems}
+		\item {Independently created automated ceramic piezoelectric transformer characterization program using LabVIEW. The ability to automate this process has saved the manufacturer hundreds of hours of employee labor.}
+		\end{cvitems}}
+	\cventry
+	{Engineering Intern}
+	{QorTek Inc.}
+	{}
+	{May 2017 – August 2017}
+	{\begin{cvitems}
+		\item {Designed and tested attitude control system for small satellites using C\#. This program also used a Bluetooth API to communicate to the testing platform and gather valuable feedback data. This program led to the successful validation of critical project goals.}
+		\item {Controlled on-board electronics of satellite testing platform using custom micro-controller code, written in C.}
+		\end{cvitems}}
+\end{cventries}
+\vspace{-5mm}
+\cvsection{Skills}
+	\vspace{-5mm}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Programming Languages:  & {\skill{ C\#, Python, C++, Verilog, Java}} \\
+		Software:  & {\skill{ Visual Studio, SVN and Git, Windows and Linux, LabVIEW, Eclipse}} \\
+		Computer Science:  & {\skill{ Rest API, OOP Principles, Data Structures, Algorithms}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\vspace{-10mm}
+\cvsection{Projects}
+\begin{cventries}
+	\cventry
+	{Personal database to manage recipes. Features will include recipe selection based on available ingredients, cuisine type, preparation time, and more. Eventual plans include easy user interface for individuals to generate their own database.}
+	{Cooking Database and Recipe Management}
+	{PostgreSQL, Python}
+	{}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Desktop application to manage players stats, dice rolls, and inventory. Code managed and documented on GitHub. New features are added by talking with players on a weekly basis during campaign sessions. Persistent game data structures allows players to easily save their data.}
+	{Dungeons and Dragons Hub}
+	{C\#}
+	{https://github.com/smyers24/DnD\_Hub}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Ongoing project to learn web design and additional coding platforms as needed.}
+	{Personal Website}
+	{Jekyll, GitHub Pages}
+	{https://scottmyers.dev}
+	{}
+	
+	\vspace{-7mm}
+\end{cventries}
+\cvsection{Certifications}
+\begin{cvhonors}
+	\cvhonor
+	{ISO 9001:2015 Internal Auditor}
+	{Perform internal audits to assess company metrics. Tasks include interviewing key personnel, writing policies, and ensuring regulations are being followed.}
+	{The Bonney Ziegler Group}
+	{February 2019}
+\end{cvhonors}
+\ 
+\end{document}
